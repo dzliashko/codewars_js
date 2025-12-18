@@ -1,6 +1,6 @@
-import { validatePIN } from "./kyu7/regexValidatePINcode.js";
+import { nbYear } from "./kyu7/growthPopulation.js";
 
-console.log(validatePIN("1"));
-console.log(validatePIN("1234"));
-console.log(validatePIN("12345"));
-console.log(validatePIN("123456"));
+console.log(nbYear(1500, 5, 100, 5000));
+console.log(nbYear(1500000, 2.5, 10000, 2000000));
+console.log(nbYear(1500000, 0.25, 1000, 2000000));
+console.log(nbYear(1000, 2.0, 50, 1214));
