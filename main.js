@@ -1,6 +1,26 @@
-import { nbYear } from "./kyu7/growthPopulation.js";
+import { openOrSenior } from "./kyu7/categorizeNewMember.js";
 
-console.log(nbYear(1500, 5, 100, 5000));
-console.log(nbYear(1500000, 2.5, 10000, 2000000));
-console.log(nbYear(1500000, 0.25, 1000, 2000000));
-console.log(nbYear(1000, 2.0, 50, 1214));
+console.log(
+  openOrSenior([
+    [45, 12],
+    [55, 21],
+    [19, -2],
+    [104, 20],
+  ]),
+);
+console.log(
+  openOrSenior([
+    [3, 12],
+    [55, 1],
+    [91, -2],
+    [53, 23],
+  ]),
+);
+console.log(
+  openOrSenior([
+    [59, 12],
+    [55, -1],
+    [12, -2],
+    [12, 12],
+  ]),
+);
